@@ -15,6 +15,7 @@ export default function view(props) {
     return (
         <>
         <p>Props Value { props.userId }</p>
+        <div class="table-responsive">
           <table className="table">
             <thead>
                 <tr>
@@ -31,6 +32,7 @@ export default function view(props) {
                 </tr>
             </thead>
           </table>
+        </div>
         </>
     );
 } 

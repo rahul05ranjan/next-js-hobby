@@ -28,6 +28,7 @@ export default function contactUs() {
    });
     return (
         <>
+        <div class="table-responsive">
           <table className="table">
             <thead>
               <tr>
@@ -42,6 +43,7 @@ export default function contactUs() {
               {listUsers}
             </tbody>
           </table>
+        </div>
         </>
     );
 } 
